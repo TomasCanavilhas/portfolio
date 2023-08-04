@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    z-index: 0;
+}
+
+body.dark {
+    background-color: #000;
+    color: #fff;
+    z-index: 0;
+
+}
+
+.home.dark {
+    background-color: #000;
+    color: #fff;
+}
+
+.binary-row {
+    position: relative;
+    display: flex;
+    font-size: 22px;
+    line-height: 16px;
+    color: #a2a2a2;
+    letter-spacing: 1px;
+    animation: fade 5s infinite;
+    z-index: 0;
+
+}
+
+.unselectable {
+    user-select: none; /* standard syntax */
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+}
+
+
+@keyframes fade {
+    0% { opacity: 0.5; }
+    50% { opacity: 0.75; }
+    100% { opacity: 0.5; }
+}
+
+.profile-picture {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    margin-top: 120px;
+}
+
+.home {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 2rem;
+    background-color: transparent;
+    z-index: 0;
+    top: 40px;
+    width: -webkit-fill-available;
+}
+
+.home.dark {
+    color: #fff;
+    z-index: 0;
+
+}
+
+.info-section{
+    background-color: #eeeeee;
+    opacity: 0.9;
+    position: inherit;
+    padding: 10px 10px;
+    padding-top: 40px;
+    margin: 10px;
+    z-index: 0;
+    border-radius: 15px;
+    top: -40px;
+    width: fit-content;
+}
+
+.info-section.dark{
+    background-color: rgb(58 , 58 , 60);
+}
+
+.name {
+    font-size: 2rem;
+    background-color: #eeeeee;
+    width: 100%;
+    line-height: 36px;
+    border: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    z-index: 0;
+}
+
+.name.dark{
+    background-color: transparent;
+}
+
+.description {
+    font-size: 1rem;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 8px;
+    z-index: 0;
+
+}
+
+.description.dark {
+    background-color: transparent;
+    color: #fff;
+}
+
+.buttons-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    z-index: 0;
+
+}
+
+.binary-matrix {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8em;
+    line-height: 1em;
+    white-space: pre-wrap;
+    overflow: hidden;
+    color: #000;
+}
+
+.binary-matrix.dark {
+    color: #fff;
+    z-index: 0;
+}
+
+div.buttons-row .download-red-btn {
+    color: white;
+    background-color: #FF9F00;
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+div.buttons-row .download-red-btn:hover {
+    background-color: #8E8E93;
+}
+
+.download-red-btn.clicked {
+    transform: scale(0.9);
+}
+
+.linkedin-icon {
+    transition: transform 0.3s ease-in-out;
+    margin-left: 10px;
+    color: #1352be;
+}
+
+.linkedin-icon.dark {
+    color: #ffffff;
+}
+
+.linkedin-icon:hover {
+    transform: scale(1.3);
+}
+
+/* HOME STYLE */
+.home-content{
+    top: 800px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-panel,
+.right-panel {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 50%;
+}
+
+.left-panel {
+    border-right: 1px solid #ddd;
+}
+
+.left-panel h1,
+.right-panel h2 {
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.left-panel p {
+    margin-bottom: 4rem;
+    color: #777;
+}
+
+.left-panel a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    transition: color 0.3s;
+}
+
+.left-panel a:hover {
+    color: #007bff;
+}
+
+.right-panel section {
+    margin-bottom: 4rem;
+}
+
+.dark {
+    color: #fafafa;
+}
+
+.dark .left-panel a,
+.dark .left-panel a:hover {
+    color: #fafafa;
+}
+
+.dark .left-panel {
+    border-right: 1px solid #777;
+}
+
+.dark .right-panel button {
+    color: #333;
+    background-color: #fafafa;
+}
