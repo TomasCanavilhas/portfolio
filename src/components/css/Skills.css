@@ -1,0 +1,248 @@
+.home {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 2rem;
+    background-color: transparent;
+    z-index: 0;
+    top: 40px;
+    width: -webkit-fill-available;
+}
+
+.home.dark {
+    background-color: #000;
+    color: #fff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    z-index: 0;
+}
+
+body.dark {
+    background-color: #000;
+    color: #fff;
+    z-index: 0;
+
+}
+
+.binary-matrix {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8em;
+    line-height: 1em;
+    white-space: pre-wrap;
+    overflow: hidden;
+    color: #000;
+}
+
+.binary-matrix.dark {
+    color: #fff;
+    z-index: 0;
+}
+
+.binary-row {
+    position: relative;
+    display: flex;
+    font-size: 22px;
+    line-height: 16px;
+    color: #a2a2a2;
+    letter-spacing: 1px;
+    animation: fade 5s infinite;
+    z-index: 0;
+
+}
+
+.unselectable {
+    user-select: none; /* standard syntax */
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+}
+
+:root {
+    --color-light-background: #FAFAFA;
+    --color-dark-background: #1D1D1D;
+    --color-light-text: #1D1D1D;
+    --color-dark-text: #FAFAFA;
+    --color-primary: #007BFF;
+    --color-secondary: #6C757D;
+    --font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    --font-size: 16px;
+    --border-radius: 15px;
+    --shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    --transition: all 0.3s ease;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--color-light-background);
+    color: var(--color-light-text);
+    transition: var(--transition);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body.dark {
+    background-color: var(--color-dark-background);
+    color: var(--color-dark-text);
+}
+
+.home {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 2rem;
+    width: -webkit-fill-available;
+    z-index: 0;
+    top: 40px;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'San Francisco', 'Helvetica Neue', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    position: relative;
+    max-height: calc(100vh - 90px);
+    overflow-y: auto;
+    opacity: 0.97;
+    border-radius: 20px;
+}
+
+.skills-container.dark {
+    background-color: #222;
+    scrollbar-color: #444 #222;  /* Scrollbar track color and thumb color for dark mode */
+    scrollbar-width: thin;  /* Adjust as needed */
+}
+
+/* For Webkit browsers like Chrome and Safari */
+.skills-container::-webkit-scrollbar {
+    width: 12px;  /* Width of the scrollbar */
+}
+
+.skills-container::-webkit-scrollbar-track {
+    background: #f9f9f9;  /* Color of the track */
+}
+
+.skills-container.dark::-webkit-scrollbar-track {
+    background: #222;  /* Color of the track in dark mode */
+}
+
+.skills-container::-webkit-scrollbar-thumb {
+    background-color: #888;  /* Color of the scroll thumb */
+    border-radius: 20px;  /* Radius of the scroll thumb */
+    border: 3px solid #f9f9f9;  /* Creates padding around scroll thumb */
+}
+
+.skills-container.dark::-webkit-scrollbar-thumb {
+    background-color: #444;  /* Color of the scroll thumb in dark mode */
+    border: 3px solid #222;  /* Creates padding around scroll thumb in dark mode */
+}
+
+.skills-title {
+    margin-top: 70px;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.skills-title {
+    color: white;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.paradigm-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-light-background);
+    color: var(--color-light-text);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    width: 200px;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.paradigm-card.dark {
+    background: var(--color-dark-background);
+    color: var(--color-dark-text);
+}
+
+.paradigm-card:hover {
+    transform: translateY(-1rem);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.paradigm-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.paradigm-animation {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--color-secondary);
+}
+
+.expanded-paradigm {
+    background: var(--color-light-background);
+    color: var(--color-light-text);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    padding: 2rem;
+    width: 80%;
+    margin-top: 2rem;
+    transition: var(--transition);
+    transform: scale(1.05);
+}
+
+.expanded-paradigm.dark {
+    background: var(--color-dark-background);
+    color: var(--color-dark-text);
+}
+
+.expanded-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.expanded-animation {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--color-secondary);
+}
+
+

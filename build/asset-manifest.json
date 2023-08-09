@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.612d78b6.css",
+    "main.js": "/static/js/main.e3f045f8.js",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/CV_Tomas_Canavilhas.pdf": "/static/media/CV_Tomas_Canavilhas.2ddbec896a5f012114b5.pdf",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/avatar.jpeg": "/static/media/avatar.b6f69a3f03590a254410.jpeg",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "static/media/sun.svg": "/static/media/sun.a93d9063a135c90f3bd7f0b261161067.svg",
+    "static/media/github.svg": "/static/media/github.19998eb58e5f1d4c814961c44a14a6dc.svg",
+    "static/media/twitter.svg": "/static/media/twitter.600714ce8c77ab5ccdb69e664bf58a4b.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.87235302bb6486febd0aadb71451cecf.svg",
+    "index.html": "/index.html",
+    "main.612d78b6.css.map": "/static/css/main.612d78b6.css.map",
+    "main.e3f045f8.js.map": "/static/js/main.e3f045f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.612d78b6.css",
+    "static/js/main.e3f045f8.js"
+  ]
+}
