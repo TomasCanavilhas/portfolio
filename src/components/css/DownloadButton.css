@@ -1,0 +1,74 @@
+.download-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Increase gap to separate the percentage from the icon */
+    border: none;
+    background-color: #FFFFFF;
+    color: #A9A9A9;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.download-button.dark-mode {
+    background-color: transparent;
+    outline: solid 2px white;
+    color: #FFFFFF;
+}
+
+.download-button:hover {
+    background-color: #F2F2F2;
+}
+
+.download-button.dark-mode:hover {
+    background-color: #7F7F7F;
+}
+
+.download-button:active {
+    background-color: #E6E6E6;
+}
+
+.download-button.dark-mode:active {
+    background-color: #696969;
+}
+
+.download-button span {
+    position: relative;
+}
+
+.download-button .fas {
+    transition: transform 0.3s;
+    animation: downloadIconMove 0.5s infinite; /* Add animation */
+}
+
+.download-button.downloading {
+    color: #32CD32;
+}
+
+.download-button.downloading.dark-mode {
+    color: #ffffff;
+}
+
+.download-button.complete {
+    background-color: #32CD32;
+    color: #FFFFFF;
+}
+
+.download-button.complete.dark-mode {
+    background-color: #228B22;
+    color: #FFFFFF;
+}
+
+.progress-bar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    background-color: #32CD32;
+}
+
+
