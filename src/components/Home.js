@@ -70,7 +70,8 @@ const Home = ({darkMode}) => {
                             <div
                                 className={`home-icons ${darkMode ? 'dark' : ''} flex items-center justify-start my-8 home-icons`}>
                                 <div className="mr-4 transition-opacity hover:opacity-70 cursor-pointer">
-                                    <a className="noStyle" href="https://www.linkedin.com/in/tomascanavilhas/" target="_blank">
+                                    <a className="noStyle" href="https://www.linkedin.com/in/tomascanavilhas/"
+                                       target="_blank">
                                         <LinkedInIcon/>
                                     </a>
                                 </div>
@@ -88,6 +89,7 @@ const Home = ({darkMode}) => {
                                 implement
                                 software solutions to meet customer
                                 requirements.</p>
+                            {/*
                             <div className="flex flex-wrap items-center justify-start mt-6 home-links">
                                 <div
                                     className="flex items-center justify-center text-xs font-bold mr-4 mb-2 cursor-pointer">
@@ -112,6 +114,7 @@ const Home = ({darkMode}) => {
                                     <div className="w-[12px] lg:w-[20px] h-[1px] mx-1 transition-colors bg-white"/>
                                     <span className="transition-colors text-white">MISC</span></div>
                             </div>
+                            */}
                         </div>
                     </div>
                     <div className={`panel-two ${darkMode ? 'dark' : ''} grid-span-1 snipcss0-0-0-1`}>
@@ -123,89 +126,176 @@ const Home = ({darkMode}) => {
                                 className={`small-card ${darkMode ? 'dark' : ''} w-full p-6 mb-6 snipcss0-2-2-4 style-Vo2G7`}
                                 id="style-Vo2G7">
                                 <h3 className="font-bold text-2xl snipcss0-3-4-5">
-                                    Full Stack Software Developer
+                                    Java Software Engineer
                                 </h3>
-                                <p className="font-light text-white/80 snipcss0-3-4-6">
-                                    <a href="#" target="_blank" rel="noreferrer"
+                                <p className="font-light leading-7 snipcss0-3-4-6">
+                                    <a href="https://www.capgemini.com/about-us/" target="_blank" rel="noreferrer"
                                        className="font-bold text-brand hover:underline snipcss0-4-6-7">
-                                        Company Name
+                                        Capgemini
                                     </a>
-                                    • Full-Time • Jan 2021 - Now
+                                    &nbsp;• Full-Time • Oct 2022 - Now
                                 </p>
-                                <p className="font-light mb-4 text-white/80 snipcss0-3-4-8">
-                                    Orlando, Florida
+                                <p className="font-light mb-4 leading-7 snipcss0-3-4-8">
+                                    Lisbon, Portugal
                                 </p>
                                 <p className="font-light leading-7 mb-4 snipcss0-3-4-9">
-                                    Here's a paragraph describing what I did at the company from a high level. I should
-                                    state my role, the team that I was on, and what we built while I was there.
+                                    <ul>
+                                        <li>
+                                            • Maintaining and implementing software applications utilizing Java.
+                                        </li>
+                                        <li>• Engaged in software development projects, primarily utilizing Spring
+                                            Framework
+                                            and Hibernate.
+                                        </li>
+                                        <li>• Adopted best practices in application maintenance and feature
+                                            development.
+                                        </li>
+                                        <li>• Mastered Scrum methodology, GitLab, Git Flow Workflow, and Maven in a
+                                            fast-paced agile environment.
+                                        </li>
+                                        <li>• Contributed to refining team processes and ensuring comprehensive
+                                            documentation.
+                                        </li>
+                                    </ul>
                                 </p>
-                                <p className="font-light leading-7 snipcss0-3-4-10">
-                                    Here's a second paragraph which goes into further detail. It should try to use hard
-                                    numbers. Some examples would be "improved conversion rate of landing pages by 23%"
-                                    or "improved API throughput by 3X".
-                                </p>
+                                <div className="flex flex-wrap items-center justify-start -mb-2 snipcss0-3-29-35">
+                                    <span
+                                        className="px-2 text-sm mr-2 mb-2 py-1 rounded-full bg-brand text-white snipcss0-4-35-36">
+                                      Java
+                                    </span>
+                                    <span
+                                        className="px-2 text-sm mr-2 mb-2 py-1 rounded-full bg-brand text-white snipcss0-4-35-36">
+                                      Spring
+                                    </span>
+                                    <span
+                                        className="px-2 text-sm mr-2 mb-2 py-1 rounded-full bg-brand text-white snipcss0-4-35-36">
+                                      SQL
+                                    </span>
+                                    <span
+                                        className="px-2 text-sm mr-2 mb-2 py-1 rounded-full bg-brand text-white snipcss0-4-35-36">
+                                      Hibernate
+                                    </span>
+                                    <span
+                                        className="px-2 text-sm mr-2 mb-2 py-1 rounded-full bg-brand text-white snipcss0-4-35-36">
+                                      Git (GitFlow)
+                                    </span>
+                                    <span
+                                        className="px-2 text-sm mr-2 mb-2 py-1 rounded-full bg-brand text-white snipcss0-4-35-36">
+                                      HTML5/CSS
+                                    </span>
+                                    <span
+                                        className="px-2 text-sm mr-2 mb-2 py-1 rounded-full bg-brand text-white snipcss0-4-35-36">
+                                      Selenium
+                                    </span>
+                                    <span
+                                        className="px-2 text-sm mr-2 mb-2 py-1 rounded-full bg-brand text-white snipcss0-4-35-36">
+                                      JavaScript
+                                    </span>
+                                </div>
                             </div>
                             <div
                                 className={`small-card ${darkMode ? 'dark' : ''} w-full p-6 mb-6 snipcss0-2-2-4 style-Vo2G7`}
                                 id="style-FHDDf">
                                 <h3 className="font-bold text-2xl snipcss0-3-11-12">
-                                    Software Engineer
+                                    Django Software Engineer
                                 </h3>
-                                <p className="font-light text-white/80 snipcss0-3-11-13">
-                                    <a href="https://www.wayfair.com/" target="_blank" rel="noreferrer"
+                                <p className="font-light snipcss0-3-11-13">
+                                    <a href="https://www.almirante24.com/" target="_blank" rel="noreferrer"
                                        className="font-bold text-brand hover:underline snipcss0-4-13-14">
-                                        Another Company
+                                        Almirante24
                                     </a>
-                                    • Full-Time • Jan 2020 - Jun 2021
+                                    &nbsp;• Full-Time • Mar 2022 - Oct 2022
                                 </p>
-                                <p className="font-light mb-4 text-white/80 snipcss0-3-11-15">
-                                    Boston, Massachusetts
+                                <p className="font-light mb-4 snipcss0-3-11-15">
+                                    Lisbon, Portugal
                                 </p>
-                                <p className="font-light leading-7 mb-4 snipcss0-3-11-16">
-                                    Here's a paragraph similar to the previous. It should describe what I did at the
-                                    company from a high level. I should state my role and the, team that I was on, and
-                                    what we built while I was there.
+                                <p className="font-light leading-7 mb-4 snipcss0-3-4-9">
+                                    <ul>
+                                        <li>• Operated as a freelance developer, specializing in crafting integrated
+                                            solutions tailored for a vacation rental company.
+                                        </li>
+                                        <li>• Spearheaded the design and development of a responsive web application
+                                            leveraging Python and the Django framework.
+                                        </li>
+                                        <li>• Executed features such as form creation, user data management, and
+                                            intricate user authentication and authorization functionalities.
+                                        </li>
+                                        <li>• Managed end-to-end website development projects, ensuring timely
+                                            delivery while adhering to established budgets.
+                                        </li>
+                                        <li>• Employed a diverse tech stack including Python, Django, PostgreSQL,
+                                            HTML5, CSS, JavaScript, SQLite, and PyCharm to achieve robust and
+                                            scalable solutions.
+                                        </li>
+                                    </ul>
                                 </p>
-                                <p className="font-light leading-7 mb-4 snipcss0-3-11-17">
-                                    You could also list your projects using bullet points like this:
-                                </p>
-                                <p className="font-light leading-7 mb-4 snipcss0-3-11-18">
-                                    - A suite of tools used by marketing analysts to directly drive efficiency in
-                                    hundreds of millions of dollars of ad spend (React, Java, Dropwizard, Python,
-                                    Vertica, Hive, MSSQL, Presto and more)
-                                </p>
-                                <p className="font-light leading-7 mb-4 snipcss0-3-11-19">
-                                    - "Forge" framework for designing jobs which pipe billions of rows of data daily
-                                    (Python, Aerospike, Spark, Hive)
-                                </p>
-                                <p className="font-light leading-7 mb-4 snipcss0-3-11-20">
-                                    - Custom data analytics user interfaces which allow analysts to track performance of
-                                    ad campaigns over time (React, PrestoDB, Vertica, Java, Dropwizard)
-                                </p>
-                                <p className="font-light leading-7 snipcss0-3-11-21">- The "Generic CSV Uploader" API
-                                    which has cut development time of new CSV upload utilities (we've got many of them)
-                                    down from a week to day (Java, Dropwizard)</p>
+                                <div className="flex flex-wrap items-center justify-start -mb-2 snipcss0-3-29-35">
+                                    <span className="px-2 text-sm mr-2 mb-2 py-1 rounded-full bg-brand text-white snipcss0-4-35-36">
+                                        Python
+                                    </span>
+                                    <span
+                                        className="px-2 text-sm mr-2 mb-2 py-1 rounded-full bg-brand text-white snipcss0-4-35-36">
+                                        Django
+                                    </span>
+                                    <span
+                                        className="px-2 text-sm mr-2 mb-2 py-1 rounded-full bg-brand text-white snipcss0-4-35-36">
+                                        PostgreSQL
+                                    </span>
+                                    <span
+                                        className="px-2 text-sm mr-2 mb-2 py-1 rounded-full bg-brand text-white snipcss0-4-35-36">
+                                        Git (GitFlow)
+                                    </span>
+                                    <span
+                                        className="px-2 text-sm mr-2 mb-2 py-1 rounded-full bg-brand text-white snipcss0-4-35-36">
+                                        HTML5/CSS
+                                    </span>
+                                    <span
+                                        className="px-2 text-sm mr-2 mb-2 py-1 rounded-full bg-brand text-white snipcss0-4-35-36">
+                                        JavaScript
+                                    </span>
+                                </div>
+
                             </div>
                             <div
                                 className={`small-card ${darkMode ? 'dark' : ''} w-full p-6 mb-6 snipcss0-2-2-4 style-Vo2G7`}
                                 id="style-vigTc">
                                 <h3 className="font-bold text-2xl snipcss0-3-22-23">
-                                    Unrelated experience
+                                    Summer Internship
                                 </h3>
-                                <p className="font-light text-white/80 snipcss0-3-22-24">
-                                    Various Companies • Full-Time • Aug 2015 - Nov 2018
+                                <p className="font-light leading-7 snipcss0-3-4-6">
+                                    <a href="https://www.capgemini.com/about-us/" target="_blank" rel="noreferrer"
+                                       className="font-bold text-brand hover:underline snipcss0-4-6-7">
+                                        Capgemini
+                                    </a>
+                                    &nbsp;• Full-Time • Jul 2022
                                 </p>
-                                <p className="font-light mb-4 text-white/80 snipcss0-3-22-25">
-                                    Various Locations
+                                <p className="font-light mb-4 snipcss0-3-22-25">
+                                    Lisbon
                                 </p>
-                                <p className="font-light leading-7 snipcss0-3-22-26">
-                                    If you've got unrelated experience, you can separate them out as you wish. I tend to
-                                    lump my less relevant experience into one place like this. I worked in construction
-                                    before I became a developer, so I might say something like "lead teams of welders
-                                    and fitters to build projects on a tight deadline". You get the idea :)
+                                <p className="font-light leading-7 mb-4 snipcss0-3-4-9">
+                                    <ul>
+                                        <li>• Immersed in a comprehensive exploration of diverse departments within
+                                            Capgemini, gaining a holistic understanding of the firm's operations.
+                                        </li>
+                                        <li>• Engaged directly with key clients and influential team leaders, fostering
+                                            professional relationships and enhancing communication skills.
+                                        </li>
+                                        <li>• Acquired a deep understanding of the inner workings of a leading
+                                            consulting firm, recognizing the distinct roles and pivotal responsibilities
+                                            of its team members.
+                                        </li>
+                                        <li>• Benefitted from a robust learning environment, drawing invaluable insights
+                                            about the consulting industry and its multifaceted dimensions.
+                                        </li>
+                                        <li>• Reflecting on the experience, I found the internship immensely
+                                            enlightening and instrumental in shaping my perspective on the sector.
+                                        </li>
+                                    </ul>
                                 </p>
+
                             </div>
                         </section>
+                        {/*
                         <section className="mb-16 snipcss0-1-1-27" id="projects">
                             <h2 className="font-bold text-3xl mb-2 snipcss0-2-27-28">
                                 Projects
@@ -359,26 +449,27 @@ const Home = ({darkMode}) => {
                                 </div>
                             </div>
                         </section>
+                        */}
                         <section className="mb-16 snipcss0-1-1-70" id="education">
                             <h2 className="font-bold text-3xl mb-2 snipcss0-2-70-71">
                                 Education
                             </h2>
-                            <div className="w-full bg-dusty/50 backdrop-blur p-6 mb-6 snipcss0-2-70-72 style-p6dgF"
-                                 id="style-p6dgF">
+                            <div
+                                className={`small-card ${darkMode ? 'dark' : ''} w-full p-6 mb-6 snipcss0-2-2-4 style-Vo2G7`}
+                                id="style-Vo2G7">
                                 <h3 className="font-bold text-2xl mb-6 snipcss0-3-72-73">
-                                    Dope School University
+                                    BSc in Computer Science and Business Management
                                 </h3>
-                                <p className="font-light leading-7 mb-6 snipcss0-3-72-74">
-                                    You can keep this relatively short. Talk a bit about your major, when you graduated
-                                    (or when you WILL graduate), and any accomplishments you made while you were there.
-                                    Deans list, sports teams, clubs, whatever shows you've put in some effort!
-                                </p>
-                                <div className="mt-6 snipcss0-3-72-75">
-                                    <a href="#" target="_blank" rel="noreferrer"
-                                       className="text-brand text-sm underline snipcss0-4-75-76">
-                                        Website
+                                <p className="font-light leading-7 snipcss0-3-4-6">
+                                    <a href="https://www.iscte-iul.pt/course/6/bachelor-bsc-in-computer-science-and-business-management" target="_blank" rel="noreferrer"
+                                       className="font-bold text-brand hover:underline snipcss0-4-6-7">
+                                        ISCTE-IUL
                                     </a>
-                                </div>
+                                    &nbsp;• Sep 2020 • Jun 2024 (Expected)
+                                </p>
+                                <p className="font-light leading-7 mb-6 snipcss0-3-72-74">
+                                    During my undergraduate studies at ISCTE-IUL, I am delving deep into both Computer Science and Business Management domains. My curriculum is designed to equip me with the technical prowess needed for software development and the managerial acumen required in the business world. This dual major is providing me a unique perspective, bridging the gap between technology and business. Expected to graduate in June 2024, I am ardently participating in academic projects, collaborating with peers, and constantly seeking opportunities to apply theoretical knowledge in real-world scenarios.
+                                </p>
                             </div>
                             <div className="w-full bg-dusty/50 backdrop-blur p-6 mb-6 snipcss0-2-70-77 style-71MNB"
                                  id="style-71MNB">
@@ -398,6 +489,7 @@ const Home = ({darkMode}) => {
                                 </div>
                             </div>
                         </section>
+                        {/*
                         <section id="misc" className="snipcss0-1-1-82">
                             <h2 className="font-bold text-3xl mb-2 snipcss0-2-82-83">
                                 Misc
@@ -1824,6 +1916,7 @@ const Home = ({darkMode}) => {
                                 </div>
                             </div>
                         </section>
+                        */}
                     </div>
                 </div>
             </div>

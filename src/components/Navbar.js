@@ -4,22 +4,23 @@ import './css/Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FaMoon } from 'react-icons/fa';
 import { ReactComponent as SunIcon } from './icons/sun.svg';
-import resumeFile from "./resume/CV_Tomas_Canavilhas.pdf";
+import resumeFile from "./resume/Tomas_Canavilhas_Resume.pdf";
 import DownloadButton from "./APIs/DownloadButton";
 
 const Navbar = ({darkMode, toggleDarkMode}) => {
     return (
         <div className={`background ${darkMode ? 'dark' : ''}`}>
             <nav className={`navbar ${darkMode ? 'dark' : ''}`}>
-                <Link to="/" className={`brand ${darkMode ? 'dark' : ''} font-black`}>
+                <Link to="/portfolio" className={`brand ${darkMode ? 'dark' : ''} font-black`}>
                      Tomás<span className="highlight">&nbsp;PORTFOLIO</span>
                 </Link>
                 <ul className="menu">
                     <li className={`menu-item ${darkMode ? 'dark' : ''}`}>
-                        <Link to="/" className="menu-link">
+                        <Link to="/portfolio" className="menu-link">
                             Home
                         </Link>
                     </li>
+                    {/*
                     <li className={`menu-item ${darkMode ? 'dark' : ''}`}>
                         <Link to="/about" className="menu-link">
                             About
@@ -35,6 +36,7 @@ const Navbar = ({darkMode, toggleDarkMode}) => {
                             Public Projects
                         </Link>
                     </li>
+                    */}
                     <li className={`menu-item ${darkMode ? 'dark' : ''} dwn-btn`}>
                         <DownloadButton url={resumeFile} darkMode={darkMode}/>
                     </li>

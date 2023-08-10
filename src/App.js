@@ -19,7 +19,7 @@ function App() {
             <div>
                 <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
                 <Routes>
-                    <Route path="/" element={<Home darkMode={darkMode} />} />
+                    <Route path="/portfolio" element={<Home darkMode={darkMode} />} />
                     <Route path="/about" element={<About darkMode={darkMode} />} />
                     <Route path="/skills" element={<Skills darkMode={darkMode} />} />
                     <Route path="/projects" element={<Projects darkMode={darkMode} />} />
