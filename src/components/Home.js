@@ -63,58 +63,29 @@ const Home = ({darkMode}) => {
                 <div
                     className="w-full h-full relative p-6 gap-6 lg:gap-16 lg:p-16 grid grid-cols-1 lg:grid-cols-2 snipcss-xTeri">
                     <div className={`panel-one ${darkMode ? 'dark' : ''} grid-span-1 z-10 relative`}>
-                        <div className="mb-6 sticky top-[7rem] mt-12 lg:mt-0"><h1
-                            className="text-5xl lg:text-6xl leading-tight lg:leading-tight font-black font-title">Hello
-                            World, I'm<br/>Tomás Canavilhas<span
-                                className="text-brand">.</span></h1>
-                            <div
-                                className={`home-icons ${darkMode ? 'dark' : ''} flex items-center justify-start my-8 home-icons`}>
-                                <div className="mr-4 transition-opacity hover:opacity-70 cursor-pointer">
-                                    <a className="noStyle" href="https://www.linkedin.com/in/tomascanavilhas/"
-                                       target="_blank">
+                        <div className="mb-4 md:mb-6 sticky top-16 md:top-[7rem]">
+                            <h1 className="text-4xl md:text-5xl lg:text-6xl leading-tight font-black font-title">
+                                Hello World, I'm<br/>Tomás Canavilhas<span className="text-brand">.</span>
+                            </h1>
+                            <div className={`home-icons ${darkMode ? 'dark' : ''} flex items-center justify-start mt-4 md:my-8`}>
+                                <div className="mr-3 md:mr-4 transition-opacity hover:opacity-70 cursor-pointer">
+                                    <a className="noStyle" href="https://www.linkedin.com/in/tomascanavilhas/" target="_blank">
                                         <LinkedInIcon/>
                                     </a>
                                 </div>
-                                <div className="mr-4 transition-opacity hover:opacity-70 cursor-pointer">
+                                <div className="mr-3 md:mr-4 transition-opacity hover:opacity-70 cursor-pointer">
                                     <TwitterIcon/>
                                 </div>
-                                <div className="mr-4 transition-opacity hover:opacity-70 cursor-pointer">
+                                <div className="mr-3 md:mr-4 transition-opacity hover:opacity-70 cursor-pointer">
                                     <GitHubIcon/>
                                 </div>
                             </div>
-                            <p className="font-light leading-7 home-desc">Experienced software engineer currently
-                                working in a <span className="text-brand font-bold">Java</span> Project.
+                            <p className="text-sm md:text-base font-light leading-6 md:leading-7 home-desc">
+                                Experienced software engineer currently working in a <span className="text-brand font-bold">Java</span> Project.
                                 Skilled in developing <span className="text-brand font-bold">backend & frontend </span>
-                                software solutions, troubleshooting, and debugging. Proven ability to create and
-                                implement
-                                software solutions to meet customer
-                                requirements.</p>
-                            {/*
-                            <div className="flex flex-wrap items-center justify-start mt-6 home-links">
-                                <div
-                                    className="flex items-center justify-center text-xs font-bold mr-4 mb-2 cursor-pointer">
-                                    <a href="#Work">
-                                        <span className="transition-colors text-white">01</span>
-                                        <div className="w-[12px] lg:w-[20px] h-[1px] mx-1 transition-colors bg-white"/>
-                                        <span className="transition-colors text-white">WORK</span></a></div>
-
-                                <div
-                                    className="flex items-center justify-center text-xs font-bold mr-4 mb-2 cursor-pointer">
-                                    <span className="transition-colors text-brand">02</span>
-                                    <div className="w-[12px] lg:w-[20px] h-[1px] mx-1 transition-colors bg-brand"/>
-                                    <span className="transition-colors text-brand">PROJECTS</span></div>
-                                <div
-                                    className="flex items-center justify-center text-xs font-bold mr-4 mb-2 cursor-pointer">
-                                    <span className="transition-colors text-white">03</span>
-                                    <div className="w-[12px] lg:w-[20px] h-[1px] mx-1 transition-colors bg-white"/>
-                                    <span className="transition-colors text-white">EDUCATION</span></div>
-                                <div
-                                    className="flex items-center justify-center text-xs font-bold mr-4 mb-2 cursor-pointer">
-                                    <span className="transition-colors text-white">04</span>
-                                    <div className="w-[12px] lg:w-[20px] h-[1px] mx-1 transition-colors bg-white"/>
-                                    <span className="transition-colors text-white">MISC</span></div>
-                            </div>
-                            */}
+                                software solutions, troubleshooting, and debugging. Proven ability to create and implement
+                                software solutions to meet customer requirements.
+                            </p>
                         </div>
                     </div>
                     <div className={`panel-two ${darkMode ? 'dark' : ''} grid-span-1 snipcss0-0-0-1`}>

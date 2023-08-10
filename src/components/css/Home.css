@@ -3741,7 +3741,7 @@ body {
 
 .home-content{
     position: absolute;
-    top: 0px;
+    top: -40px;
     margin-top: 0px !important;
 }
 
@@ -3938,6 +3938,8 @@ h2 {
 }
 
 .home-desc {
+    font-size: 16px !important;
+    font-weight: 400;
 
 }
 
@@ -3954,7 +3956,10 @@ h2 {
 }
 
 .home-icons {
+    gap: 10px;
     color: #3498DB;
+    margin: 20px;
+    margin-left: 0px;
 }
 
 .home-icons.dark {
